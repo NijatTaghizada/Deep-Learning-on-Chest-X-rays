@@ -2,6 +2,8 @@
 
 A deep learning project that uses a **convolutional neural network (CNN)** to classify chest X-rays as **healthy (`No Finding`)** or **unhealthy (one or more findings)**. The pipeline fine-tunes an ImageNet-pretrained DenseNet121, selects the best checkpoint using validation ROC-AUC, and evaluates it on 10,000 test images.
 
+Final project for Stanford **DATASCI 112**. **Result:** 0.80 ROC-AUC and 73% accuracy on the held-out test set (details in [Results](#evaluation-and-results)).
+
 This README covers the CNN pipeline in `FinalCNN.ipynb`.
 
 ## Project Overview
